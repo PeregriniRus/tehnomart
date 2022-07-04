@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Техномарт.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page">
+
+<!----------------------------- Шапка главной страницы -------------->
+<header class="page__header page-header">
+  <!--                    Шапка главной страницы        -->
+  <div class="page-header__wrap-top">
+    <p class="description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+    <address class="page-header__address header-address">
+      <p class="header-address__directions">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <a class="header-address__phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
+    </address>
+  </div>
+  <nav class="page-header__main-navigation main-navigation">
+    <div class="main-navigation__wrap-top">
+      <a class="main-nav__logo logo" href="index.html">
+  <div class="logo__img"></div>
+  <span class="visually-hidden">Логотип интернет магазина Техномарт.</span>
+</a>
+
+      <form class="header-search" action="https://echo.htmlacademy.ru" method="get">
+  <input class="header-search__input" type="search" placeholder="Поиск:" aria-label="Поиск по сайту">
+  <button class="header-search__button-reset visually-hidden" type="reset"></button>
+</form>
+
+
+      <div class="profile-wrapper">
+        <div class="profile-block">
+  <a class="profile-block__link profile-link" href="#">
+    <div class="profile-link__img-container"></div>
+    <span class="profile-link__caption visually-hidden">Равшан Джамшутович</span>
+  </a>
+  <div class="profile-block__wrapper-profile-part">
+    <button class="wrapper-profile-part__close-button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+    <p class="profile-block__title" href="#">Здравствуйте, <span class="profile-name">Равшан Джамшутович</span>
+    <ul class="profile-part">
+      </p>
+      <li class="profile-part__item">
+        <a class="profile-part__link" href="#">мои заказы</a>
+      </li>
+      <li class="profile-part__item">
+        <a class="profile-part__link" href="#">личный кабинет</a>
+      </li>
+    </ul>
+    <a class="login-form__button" href="#">выйти</a>
+  </div>
+  <a class="profile-block__link profile-link" href="#">
+    <div class="profile-link__img-container"></div>
+    <span class="profile-link__caption visually-hidden">Выйти</span>
+  </a>
+</div>
+
+        <div class="profile-login">
+  <a class="profile-login__link profile-link" href="#">
+    <div class="profile-link__img-container"></div>
+    <span class="profile-link__caption">Войти</span>
+  </a>
+  <div class="profile-login__wrapper-form wrapper-form">
+    <button class="wrapper-form__close-button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+    <form class="profile-login__form login-form" action="https://echo.htmlacademy.ru" method="post" target="_blank">
+      <h3 class="login-form__title">личный кабинет</h3>
+      <label class="visually-hidden" for="profile-email">Поле для ввода логина</label>
+      <input class="login-form__input login-field login-field--text" id="profile-email" type="email" placeholder="Логин">
+      <label class="visually-hidden" for="profile-password">Поле для ввода пароля</label>
+      <input class="login-form__input login-field login-field--text" id="profile-password" type="password" placeholder="Пароль">
+      <label class="login-form__label-checkbox">
+        <input class="login-form__input-checkbox" type="checkbox" name="preference" value="memorize" checked>
+        <span>Запомнить меня</span>
+      </label>
+      <input class="login-form__button" type="submit" value="Войти">
+      <a class="login-form__forgot-password" href="#">Забыл пароль</a>
+      <a class="login-form__registration" href="#">регистрация</a>
+    </form>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="main-navigation__wrap-bottom">
+      <ul class="main-nav__site-navigation site-navigation">
+<li class="site-navigation__item">
+  <a class="site-navigation__link" href="#">Главная</a>
+</li>
+<li class="site-navigation__item">
+  <a class="site-navigation__link" href="#">Компания</a>
+</li>
+<li class="site-navigation__item">
+  <a class="site-navigation__link" href="#">Каталог</a>
+</li>
+<li class="site-navigation__item">
+  <a class="site-navigation__link" href="#">Новости</a>
+</li>
+<li class="site-navigation__item">
+  <a class="site-navigation__link" href="#">Спецпредложения</a>
+</li>
+<li class="site-navigation__item">
+  <a class="site-navigation__link" href="#">Доставка</a>
+</li>
+<li class="site-navigation__item">
+  <a class="site-navigation__link" href="#">Контакты</a>
+</li>
+
+</ul>
+
+      <ul class="user-navigation">
+  <li class="user-navigation__item user-navigation-item">
+    <a class="user-navigation-item__link notification-badge" href="#">
+      <div class="user-navigation-item__img-container"></div>
+      <span class="user-navigation-item__notification-counter">12</span>
+      <p class="user-navigation-item__caption visually-hidden">В закладки</p>
+    </a>
+  </li>
+  <li class="user-navigation__item user-navigation-item">
+    <a class="user-navigation-item__link notification-badge" href="#">
+      <div class="user-navigation-item__img-container"></div>
+      <span class="user-navigation-item__notification-counter">2</span>
+      <p class="user-navigation-item__caption visually-hidden">Корзина</p>
+    </a>
+  </li>
+  <li class="user-navigation__item user-navigation-item">
+    <a class="button" href="#">Оформить заказ</a>
+  </li>
+</ul>
+
+    </div>
+  </nav>
+</header>
+
+<main class="page__main main-index">
+  <h1 class="visually-hidden">ПЕРФОРАТОРЫ</h1>
+
+
+
+</main>
+<!----------------------------- Футер главной страницы -------------->
+<footer class="page-footer">
+</footer>
+
+</body>
+</html>
