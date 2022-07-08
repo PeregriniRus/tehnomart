@@ -138,9 +138,195 @@
   </nav>
 </header>
 
-<main class="page__main main-index">
-  <h1 class="visually-hidden">ПЕРФОРАТОРЫ</h1>
+<main class="page__main main">
+  <section class="promo-and-slider">
+<h2 class="visually-hidden">Промо</h2>
+  <ul class="promo__categories">
+    <li class="promo__category promo-card promo-card--materials">
+  <span class="product-card__title">Материалы</span>
+  <a href="#" class="product-card__link">на любой вкус</a>
+</li>
+<li class="promo__category promo-card promo-card--instruments">
+  <span class="product-card__title">инструмент</span>
+  <a href="#" class="product-card__link">НА ВСЕ СЛУЧАИ</a>
+</li>
+<li class="promo__category promo-card promo-card--tech">
+  <span class="product-card__title">техника</span>
+  <a href="#" class="product-card__link">для стройки</a>
+</li>
 
+  </ul>
+  <div class="promo__goods slider">
+  <ul class="slider__slides">
+    <li class="slider__slide slider__slide--current">
+      <img class="slider__img" src="images/img/promo-good-1.jpg" width="770" height="390" alt="Дрель в работе">
+      <b class="slider__title">Дрели</b>
+      <p class="slider__description">Соседям на радость!</p>
+      <a class="slider__button button" href="#">Открыть каталог</a>
+    </li>
+    <li class="slider__slide">
+      <img class="slider__img" src="images/img/promo-good-2.jpg" width="770" height="390" alt="Перфоратор в работе">
+      <b class="slider__title">Перфораторы</b>
+      <p class="slider__description">Настоящие мужские игрушки</p>
+      <a class="slider__button button" href="#">Открыть каталог</a>
+    </li>
+  </ul>
+  <button class="slider__browsing slider__browsing--prev">
+    <span class="visually-hidden">К предыдущему слайду</span>
+  </button>
+  <button class="slider__browsing slider__browsing--next">
+    <span class="visually-hidden">К следующему слайду</span>
+  </button>
+  <ul class="slider__toggle toggle">
+    <li class="toggle__item">
+      <button class="toggle__button toggle__button--current" data-index="0" disabled="true"
+              aria-label="Первый слайд"></button>
+    </li>
+    <li class="toggle__item">
+      <button class="toggle__button" data-index="1" aria-label="Второй слайд"></button>
+    </li>
+  </ul>
+</div>
+
+  <ul class="promo__services">
+    <li class="promo__services promo-card promo-card--discounts">
+  <span class="product-card__title">Скидки 50%</span>
+  <a href="#" class="product-card__link">На 350 ТОВАРОВ</a>
+</li>
+<li class="promo__services promo-card promo-card--delivery">
+  <span class="product-card__title">Доставка</span>
+  <a href="#" class="product-card__link">бесплатно</a>
+</li>
+
+  </ul>
+</section>
+
+  <div class="wrapper-filter-catalog container">
+  <section class="catalog">
+  <div class="catalog__sorting sorting">
+    <h2 class="sorting__title">сортировка:</h2>
+    <select class="sorting__list text" name="sorting" id="sorting">
+      <option class="sorting__item" value="popular">Популярные</option>
+      <option class="sorting__item" value="cheap">Дешёвые</option>
+      <option class="sorting__item" value="new">Новые</option>
+    </select>
+    <ul class="sorting_arrows">
+      <li class="sorting__arrow">
+        <a class="sorting__arrow-link sorting__arrow-link--up" href="#" aria-label="Сортировка по возрастанию"></a>
+      </li>
+      <li class="sorting__arrow">
+        <a class="sorting__arrow-link sorting__arrow-link--down" href="#" aria-label="Сортировка по возрастанию"></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="catalog__content">
+    <ul class="catalog__products">
+      <li class="catalog__item new">
+  <img src="/images/img/perforator-1.jpg" width="216" height="180" alt="Изображение товара">
+  <ul class="catalog__context-links">
+    <li><a class="catalog__context-link catalog__context-link--buy" href="">Купить</a></li>
+    <li><a class="catalog__context-link" href="">В закладки</a></li>
+  </ul>
+  <h3 class="catalog__item-title"><a href="javascript:void(0);">Перфоратор, BOSCH BFG 3000</a></h3>
+<del class="catalog__price catalog__price--del catalog__price--del-index">22500 ₽</del> <a class="catalog__price catalog__price--actual" href="javascript:void(0);">15500 ₽</a>
+</li>
+<li class="catalog__item">
+  <img src="/images/img/perforator-2.jpg" width="216" height="180" alt="Изображение товара">
+  <ul class="catalog__context-links">
+    <li><a class="catalog__context-link catalog__context-link--buy" href="">Купить</a></li>
+    <li><a class="catalog__context-link" href="">В закладки</a></li>
+  </ul>
+  <h3 class="catalog__item-title"><a href="javascript:void(0);">Перфоратор BOSCH BFG 6000</a></h3>
+<del class="catalog__price catalog__price--del catalog__price--del-index">30500 ₽</del> <a class="catalog__price catalog__price--actual" href="javascript:void(0);">25500 ₽</a>
+</li>
+<li class="catalog__item new">
+  <img src="/images/img/perforator-3.jpg" width="216" height="180" alt="Изображение товара">
+  <ul class="catalog__context-links">
+    <li><a class="catalog__context-link catalog__context-link--buy" href="">Купить</a></li>
+    <li><a class="catalog__context-link" href="">В закладки</a></li>
+  </ul>
+  <h3 class="catalog__item-title"><a href="javascript:void(0);">Перфоратор BOSCH BFG 2000</a></h3>
+<a class="catalog__price catalog__price--actual" href="javascript:void(0);">25500 ₽</a>
+</li>
+<li class="catalog__item">
+  <img src="/images/img/perforator-4.jpg" width="216" height="180" alt="Изображение товара">
+  <ul class="catalog__context-links">
+    <li><a class="catalog__context-link catalog__context-link--buy" href="">Купить</a></li>
+    <li><a class="catalog__context-link" href="">В закладки</a></li>
+  </ul>
+  <h3 class="catalog__item-title"><a href="javascript:void(0);">Перфоратор BOSCH BFG 3000</a></h3>
+<del class="catalog__price catalog__price--del catalog__price--del-index">22500 ₽</del> <a class="catalog__price catalog__price--actual" href="javascript:void(0);">15500 ₽</a>
+</li>
+<li class="catalog__item new">
+  <img src="/images/img/perforator-5.jpg" width="216" height="180" alt="Изображение товара">
+  <ul class="catalog__context-links">
+    <li><a class="catalog__context-link catalog__context-link--buy" href="">Купить</a></li>
+    <li><a class="catalog__context-link" href="">В закладки</a></li>
+  </ul>
+  <h3 class="catalog__item-title"><a href="javascript:void(0);">Перфоратор BOSCH BFG 6000</a></h3>
+<a class="catalog__price catalog__price--actual" href="javascript:void(0);">25500 ₽</a>
+</li>
+<li class="catalog__item">
+  <img src="/images/img/perforator-6.jpg" width="216" height="180" alt="Изображение товара">
+  <ul class="catalog__context-links">
+    <li><a class="catalog__context-link catalog__context-link--buy" href="">Купить</a></li>
+    <li><a class="catalog__context-link" href="">В закладки</a></li>
+  </ul>
+  <h3 class="catalog__item-title"><a href="javascript:void(0);">Перфоратор BOSCH BFG 2000</a></h3>
+<a class="catalog__price catalog__price--actual" href="javascript:void(0);">25500 ₽</a>
+</li>
+<li class="catalog__item new">
+  <img src="/images/img/perforator-7.jpg" width="216" height="180" alt="Изображение товара">
+  <ul class="catalog__context-links">
+    <li><a class="catalog__context-link catalog__context-link--buy" href="">Купить</a></li>
+    <li><a class="catalog__context-link" href="">В закладки</a></li>
+  </ul>
+  <h3 class="catalog__item-title"><a href="javascript:void(0);">Перфоратор BOSCH BFG 3000</a></h3>
+<del class="catalog__price catalog__price--del catalog__price--del-index">22500 ₽</del> <a class="catalog__price catalog__price--actual" href="javascript:void(0);">15500 ₽</a>
+</li>
+<li class="catalog__item">
+  <img src="/images/img/perforator-8.jpg" width="216" height="180" alt="Изображение товара">
+  <ul class="catalog__context-links">
+    <li><a class="catalog__context-link catalog__context-link--buy" href="">Купить</a></li>
+    <li><a class="catalog__context-link" href="">В закладки</a></li>
+  </ul>
+  <h3 class="catalog__item-title"><a href="javascript:void(0);">Перфоратор BOSCH BFG 6000</a></h3>
+<del class="catalog__price catalog__price--del catalog__price--del-index">30500 ₽</del> <a class="catalog__price catalog__price--actual" href="javascript:void(0);">25500 ₽</a>
+</li>
+<li class="catalog__item new">
+  <img src="/images/img/perforator-9.jpg" width="216" height="180" alt="Изображение товара">
+  <ul class="catalog__context-links">
+    <li><a class="catalog__context-link catalog__context-link--buy" href="">Купить</a></li>
+    <li><a class="catalog__context-link" href="">В закладки</a></li>
+  </ul>
+  <h3 class="catalog__item-title"><a href="javascript:void(0);">Перфоратор BOSCH BFG 2000</a></h3>
+<a class="catalog__price catalog__price--actual" href="javascript:void(0);">25500 ₽</a>
+</li>
+
+    </ul>
+  </div>
+
+  <div class="catalog__pagination">
+    <ul class="pagination">
+      <li class="pagination__item">
+        <a class="pagination__link" href="#">1</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link pagination__link--current" href="catalog.html">2</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="/catalog.html">3</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="#">4</a>
+      </li>
+    </ul>
+    <button class="button-show-more button">Загрузить ещё</button>
+  </div>
+</section>
+
+</div>
 
 
 </main>
