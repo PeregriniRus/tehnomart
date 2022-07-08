@@ -4,6 +4,6 @@ const path = require("../config/path");
 
 // Удаление директории
 const clear = () => {
-  return del(path.root);
+  return del(["./images","./index.html","./css"]);
 }
 module.exports = clear;

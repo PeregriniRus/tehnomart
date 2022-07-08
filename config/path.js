@@ -1,5 +1,5 @@
 const pathSrc = "./source";
-const pathDest = "./public";
+const pathDest = "./";
 
 module.exports = {
   root: pathDest + "",
